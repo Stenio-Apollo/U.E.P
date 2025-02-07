@@ -3,8 +3,8 @@
   --color-primary: black;
   --color-secondary: rgb(254, 235, 124);
   --color-accent: #fc6e4a;
-  --color-headings: #1b0760;
-  --color-body: #918ca4;
+  --color-headings: rgb(255, 255, 255);
+  --color-body: #c4c4c4;
   --color-body-darker: #5c5577;
   --color-border: #ccc;
   --border-radius: 30px;
@@ -89,7 +89,7 @@ a {
 }
 
 .link-arrow {
-  color: var(--color-accent);
+  color: var(--color-secondary);
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
@@ -196,8 +196,7 @@ a {
 
 .icon-container {
   background: #f3f9fa;
-  width: 64px;
-  height: 64px;
+  width: 110px;
   border-radius: 100%;
   display: inline-flex;
   justify-content: center;
@@ -634,6 +633,9 @@ a {
 .block__heading {
   margin-top: 0;
 }
+.block--protect {
+  background-color: #000000;
+}
 
 .block--dark {
   background: #000;
@@ -643,7 +645,7 @@ a {
 .block--dark h1,
 .block--dark h2,
 .block--dark h3 {
-  color:rgb(147, 147, 147);
+  color: rgb(147, 147, 147);
 }
 
 .block--skewed-right {
@@ -732,8 +734,7 @@ a {
 .hero__image {
   width: 100%;
   border-radius: 7%;
-
-} 
+}
 
 .hero__tagline {
   font-size: 2rem;
