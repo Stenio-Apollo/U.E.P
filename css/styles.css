@@ -9,6 +9,9 @@
   --color-border: #ccc;
   --border-radius: 30px;
 }
+.badge__element {
+  border-radius: 50%;
+}
 
 *,
 *::after,

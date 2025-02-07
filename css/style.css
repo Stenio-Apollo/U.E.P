@@ -1,0 +1,7 @@
+.sprite-0 { background: url('sprite.webp') -0px -0px; width: 150px; height: 150px; }
+.sprite-1 { background: url('sprite.webp') -0px -150px; width: 150px; height: 150px; }
+.sprite-2 { background: url('sprite.webp') -150px -0px; width: 150px; height: 150px; }
+.sprite-3 { background: url('sprite.webp') -150px -150px; width: 150px; height: 150px; }
+.sprite-4 { background: url('sprite.webp') -300px -0px; width: 150px; height: 150px; }
+.sprite-5 { background: url('sprite.webp') -150px -300px; width: 150px; height: 150px; }
+.sprite-6 { background: url('sprite.webp') -300px -300px; width: 150px; height: 150px; }
