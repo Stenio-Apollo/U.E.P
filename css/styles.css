@@ -795,7 +795,16 @@ a {
 }
 
 /* Features */
+.background__color {
+  background: rgb(0, 0, 0);
+  background-image: url(../images/Locations.jpg);
+  background-repeat: repeat-y;
+}
 
+.feature__image2 {
+  max-width: 400px;
+  border-radius: 2%;
+}
 .feature {
   gap: 4rem 2rem;
   margin: 12rem 0;
