@@ -336,12 +336,12 @@ a {
 }
 
 .card--primary .card__header {
-  background: var(--color-primary);
+  background: black;
   color: #fff;
 }
 
 .card--secondary .card__header {
-  background: var(--color-secondary);
+  background:#232323;
   color: #fff;
 }
 
@@ -795,9 +795,15 @@ a {
 }
 
 /* Features */
+
 .background__color {
   background: rgb(0, 0, 0);
   background-image: url(../images/Locations.jpg);
+  background-repeat: repeat-y;
+}
+.background__color1 {
+  background: rgb(0, 0, 0);
+  background-image: url(../images/black.jpg);
   background-repeat: repeat-y;
 }
 
