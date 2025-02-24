@@ -341,7 +341,7 @@ a {
 }
 
 .card--secondary .card__header {
-  background:#232323;
+  background: #232323;
   color: #fff;
 }
 
@@ -502,7 +502,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .grid--1x2 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -745,7 +745,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .hero__content {
-    text-align: left;
+    text-align: center;
     align-self: center;
   }
 }
